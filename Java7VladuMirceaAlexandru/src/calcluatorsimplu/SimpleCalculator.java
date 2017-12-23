@@ -15,9 +15,9 @@ public class SimpleCalculator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-            // 1. Display in console "Please introduce your first number:"
-            // 2. Read first number from console
-            // 3. Please introduce operator(+/-/*//)
+            //1. Display in console "Please introduce your first number:"
+            //2. Read first number from console
+            //3. Please introduce operator(+/-/*//)
             //4. Read operator
             //5. Please introduce second number
             //6. Read second number from console
