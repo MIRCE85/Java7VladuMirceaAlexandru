@@ -75,7 +75,7 @@ public class SimpleCalculator {
             System.out.println("Result is:" + result);
         }
                     
-            // la default nu mai are sens acel BREAK.    
+            // la default nu mai are sens acel BREAK....    
         }
         
         
