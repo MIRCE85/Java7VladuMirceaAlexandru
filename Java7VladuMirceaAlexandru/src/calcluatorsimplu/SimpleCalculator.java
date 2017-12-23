@@ -56,6 +56,8 @@ public class SimpleCalculator {
         
         
         int secondNumber = Integer.parseInt(input);
+        
+        
         int result = 0;
         
         
