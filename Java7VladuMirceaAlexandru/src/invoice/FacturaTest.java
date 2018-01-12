@@ -52,10 +52,8 @@ public class FacturaTest {
         if (price > 0) {
             invoice.setPricePerItem(price);
         }
-
-        System.out.printf("The Total Amount for all items purchased = $%.2f\n",
-                invoice.getInvoiceAmount());
-
+        System.out.println("Totalul pentru factura "+invoice.getPartNumber()+ "este: " + invoice.getInvoiceAmount());
+        
     }
     
 }
