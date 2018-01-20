@@ -34,6 +34,7 @@ public class SimpleCalculator {
         
         String input =keyboard.nextLine();
         
+        
                 
         int firstNumber = Integer.parseInt(input);
         

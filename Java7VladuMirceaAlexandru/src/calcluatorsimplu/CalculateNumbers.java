@@ -18,7 +18,9 @@ public class CalculateNumbers {
      */
     public static void main(String[] args) {
         float x,y,z;
-                       
+            
+            
+              
         char operatiune;
         
       // char[] opvector = {'+','-','*','/'};
@@ -30,7 +32,9 @@ public class CalculateNumbers {
         System.out.print("x=");
         x = in.nextInt();
         System.out.print("y=");
+        
         y = in.nextInt();
+        
         System.out.print("Operations is: + / - / * / / ?");
         Scanner op = new Scanner(System.in);
         operatiune = op.nextLine().charAt(0);  //MERGE DIRECT ASA.. fara sa mai treci prin ceva
