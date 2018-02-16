@@ -10,9 +10,28 @@ package bicicleta;
  * @author vladu
  */
 public class Bicycle {
+
+    public Bicycle() {
+    }
+
     int cadence = 0;
     int speed = 0;
     int gear = 1;
+    
+    
+    public Bicycle(int cadence1, int speed1, int gear1) {
+    cadence =cadence1;
+    speed = speed1;
+    gear = gear1;
+    
+        
+    
+    }
+
+    
+
+    
+    
 
     void changeCadence(int newValue) {
         cadence = newValue;
