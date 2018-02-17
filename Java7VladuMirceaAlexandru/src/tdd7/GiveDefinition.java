@@ -6,7 +6,7 @@
 package tdd7;
 
 import java.util.LinkedList;
-import java.util.Scanner;
+import java.util.Vector;
 
 /**
  *
@@ -19,6 +19,12 @@ public class GiveDefinition {
         // creaza o lista of figures
         
     LinkedList<GeometricalFigure> listoffigures = new LinkedList();
+        
+    // bagat de mine in Vector
+        Vector<GeometricalFigure> ceva = new Vector();
+        ceva.add(new Triangle());
+             
+                
     listoffigures.add(new Triangle());
     listoffigures.add(new Triangle());
     listoffigures.add(new Rectangle());
@@ -30,7 +36,12 @@ public class GiveDefinition {
          System.out.println(currentFigure.getDefinition());
          
           }
+     
+     for(GeometricalFigure ceva2:ceva){
+    System.out.println("Cu vector "+ceva2.getDefinition());
     
+     }
+     
 }
 }
 
