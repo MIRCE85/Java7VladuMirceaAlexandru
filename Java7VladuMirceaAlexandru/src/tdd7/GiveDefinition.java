@@ -17,6 +17,7 @@ public class GiveDefinition {
 
     public static void main(String[] args) {
         // creaza o lista of figures
+        
     LinkedList<GeometricalFigure> listoffigures = new LinkedList();
     listoffigures.add(new Triangle());
     listoffigures.add(new Triangle());

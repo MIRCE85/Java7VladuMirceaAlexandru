@@ -47,7 +47,7 @@ public class TriangleTest {
         System.out.println("getdefinition");
         Triangle instance = new Triangle();
         String expResult = "TRIANGLE: a plane figure with three straight sides and three angles.";
-        String result = instance.getdefinition();
+        String result = instance.getDefinition();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");

@@ -13,7 +13,7 @@ public class Triangle extends GeometricalFigure implements Plane {
     
     private final String definition =" with three straight sides and three angles.";
     
-   public String getdefinition(){
+   public String getDefinition(){
    
        String raspuns = "TRIANGLE: "+ Plane.definition+" "+super.getDefinition()+definition;
               
