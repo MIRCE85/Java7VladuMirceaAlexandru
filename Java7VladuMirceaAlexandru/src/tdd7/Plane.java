@@ -15,4 +15,6 @@ public interface Plane {
  * Definition of a plane figure
  */
     public static final String definition ="a plane";
+    
+    //interfata poate duce mai departe constanta ei.. in cazul asta cuvantul a plane
 }
